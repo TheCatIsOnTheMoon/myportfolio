@@ -1,0 +1,122 @@
+export const projects = [
+  {
+    name: 'Reservia',
+    number: 2,
+    startDate: '25-03-2021',
+    endDate: '19-04-2021',
+    technologies: [' html', ' css'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_2_25032021',
+    liveDemo:
+      'https://thecatisonthemoon.github.io/GilletGarasSamantha_2_25032021/',
+    screenshot: 'reservia.png',
+    presentation: '',
+    display: true,
+  },
+  {
+    name: 'Oh My Food',
+    number: 3,
+    startDate: '15-04-2021',
+    endDate: '19-05-2021',
+    technologies: [' html', ' css', ' sass'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_3_15042021',
+    liveDemo:
+      'https://thecatisonthemoon.github.io/GilletGarasSamantha_3_15042021/',
+    screenshot: 'ohmyfood.png',
+    presentation: '',
+    display: true,
+  },
+  {
+    name: 'Game On',
+    number: 4,
+    startDate: '09-05-2021',
+    endDate: '26-06-2021',
+    technologies: [' html', ' css', ' javascript'],
+    githubCode: 'https://github.com/TheCatIsOnTheMoon/GameOn-website-FR',
+    liveDemo: 'https://thecatisonthemoon.github.io/GameOn-website-FR/',
+    screenshot: 'gameon.png',
+    presentation: '',
+    display: true,
+  },
+  {
+    name: 'FishEye',
+    number: 6,
+    startDate: '09-07-2021',
+    endDate: '',
+    technologies: [' html', ' css', ' javascript'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_6_09072021',
+    liveDemo:
+      'https://thecatisonthemoon.github.io/GilletGarasSamantha_6_09072021/',
+    screenshot: 'fisheye.png',
+    presentation: '',
+    display: true,
+  },
+  {
+    name: 'Les Petits Plats',
+    number: 7,
+    startDate: '04-10-2021',
+    endDate: '',
+    technologies: [' html', ' css', ' javascript'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_7_04102021',
+    liveDemo:
+      'https://thecatisonthemoon.github.io/GilletGarasSamantha_7_04102021/',
+    screenshot: 'lespetitsplats.png',
+    presentation: '',
+    display: false,
+  },
+  {
+    name: 'Kasa',
+    number: 11,
+    startDate: '27-02-2022',
+    endDate: '',
+    technologies: [' React', ' React-Router', ' Netlify'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_11_27022022',
+    liveDemo: 'https://oc-p11-kasa.netlify.app/',
+    screenshot: 'kasa.png',
+    presentation: '',
+    display: false,
+  },
+  {
+    name: 'SportSee',
+    number: 12,
+    startDate: '09-03-2022',
+    endDate: '',
+    technologies: [' React', ' React-Router', ' Prop-Types', ' Recharts'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_12_09032022',
+    liveDemo: '',
+    screenshot: 'sportsee.png',
+    presentation: '',
+    display: false,
+  },
+  {
+    name: 'ARGENTBANK',
+    number: 13,
+    startDate: '28-03-2022',
+    endDate: '',
+    technologies: [' React', ' Redux'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_13_28032022',
+    liveDemo: '',
+    screenshot: 'argentbank.png',
+    presentation: '',
+    display: false,
+  },
+  {
+    name: 'HRnet',
+    number: 14,
+    startDate: '11-04-2022',
+    endDate: '',
+    technologies: [' React', ' Redux'],
+    githubCode:
+      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
+    liveDemo: 'https://oc-p14-hrnet.netlify.app/',
+    screenshot: 'hrnet.png',
+    presentation: '',
+    display: false,
+  },
+];
