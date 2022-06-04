@@ -1,0 +1,15 @@
+/* ---------------- footer ------------------*/
+footer {
+  width: 100%;
+  padding: 1em;
+
+  background-color: var(--color-primary--lighter);
+  box-shadow: var(--boxshadow-primary);
+
+  & p {
+    text-align: right;
+
+    font-family: var(--font-secondary);
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,11 @@
+.button {
+  padding: 0.5em 2em;
+  border-radius: $border-radius_primary;
+  background-color: $color_tertiary;
+  color: $color_primary;
+  z-index: 99;
+
+  &:hover {
+    font-weight: bolder;
+  }
+}

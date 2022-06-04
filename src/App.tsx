@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from './components/Header/Header';
+import Home from './layout/Home/Home';
 import './Sass/App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-    </div>
+    <Home/>
   );
 }
 

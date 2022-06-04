@@ -10,7 +10,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_2_25032021/',
     screenshot: 'reservia.png',
-    presentation: '',
+    description: '',
     display: true,
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_3_15042021/',
     screenshot: 'ohmyfood.png',
-    presentation: '',
+    description: '',
     display: true,
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     githubCode: 'https://github.com/TheCatIsOnTheMoon/GameOn-website-FR',
     liveDemo: 'https://thecatisonthemoon.github.io/GameOn-website-FR/',
     screenshot: 'gameon.png',
-    presentation: '',
+    description: '',
     display: true,
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_6_09072021/',
     screenshot: 'fisheye.png',
-    presentation: '',
+    description: '',
     display: true,
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_7_04102021/',
     screenshot: 'lespetitsplats.png',
-    presentation: '',
+    description: '',
     display: false,
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_11_27022022',
     liveDemo: 'https://oc-p11-kasa.netlify.app/',
     screenshot: 'kasa.png',
-    presentation: '',
+    description: '',
     display: false,
   },
   {
@@ -90,7 +90,7 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_12_09032022',
     liveDemo: '',
     screenshot: 'sportsee.png',
-    presentation: '',
+    description: '',
     display: false,
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_13_28032022',
     liveDemo: '',
     screenshot: 'argentbank.png',
-    presentation: '',
+    description: '',
     display: false,
   },
   {
@@ -116,7 +116,7 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
     liveDemo: 'https://oc-p14-hrnet.netlify.app/',
     screenshot: 'hrnet.png',
-    presentation: '',
+    description: '',
     display: false,
   },
 ];

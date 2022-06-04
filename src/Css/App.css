@@ -1,3 +1,4 @@
+/* ---------------- CSS reset ------------------*/
 /* CSS Reset for a complete clean start composed of : 
    Meyer CSSReset + addons by JossiCssReset + addons by me 
    last modif : 03/06/2022
@@ -6,19 +7,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -28,8 +97,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -37,16 +115,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -90,6 +172,7 @@ a:visited {
   text-decoration: none;
 }
 
+/* ---------------- base ------------------*/
 * {
   box-sizing: border-box !important;
 }
@@ -109,12 +192,41 @@ body {
   font-size: 1rem;
 }
 
-main {
-  max-width: 1400px;
-  margin: auto;
-  padding: 0;
+/* ---------------- global ------------------*/
+section {
+  padding: 1em;
 }
 
+h1 {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* ---------------- link ------------------*/
+a,
+link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+a:hover,
+link:hover {
+  color: #bdc3c7;
+}
+
+/* ---------------- home ------------------*/ /* ---------------- header ------------------*/
 header {
   width: 100%;
   padding: 1.5em;
@@ -147,4 +259,117 @@ nav ul {
 nav ul li:hover {
   cursor: pointer;
   color: #f1c40f;
+}
+
+/* ---------------- footer ------------------*/
+footer {
+  width: 100%;
+  padding: 1em;
+  background-color: var(--color-primary--lighter);
+  box-shadow: var(--boxshadow-primary);
+}
+footer p {
+  text-align: right;
+  font-family: var(--font-secondary);
+  font-size: 1.5em;
+}
+
+/* ---------------- main ------------------*/
+main {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0;
+}
+
+/* ---------------- about ------------------*/
+#about p {
+  text-align: justify;
+}
+
+/* ---------------- skills ------------------*/
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------- skill icon --------------------- */
+.icon {
+  height: 3em;
+  aspect-ratio: 1;
+  margin: 1em;
+}
+
+/* ----------- projects --------------------- */
+#project_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* ----------- project card --------------------- */
+.project__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25vw;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  padding: 1em;
+}
+.project__card img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-color: #bdc3c7;
+  box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+  filter: brightness(50%);
+}
+.project__card img:hover {
+  filter: brightness(80%);
+}
+.project__card figcaption {
+  display: flex;
+  justify-content: space-around;
+}
+.project__card__linklive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ecf0f1;
+  border-radius: 0.5rem;
+  opacity: 0%;
+}
+.project__card__linklive:hover {
+  opacity: 30%;
+}
+
+@media all and (max-width: 960px) {
+  .project__card {
+    width: 45vw;
+  }
+}
+@media all and (max-width: 640px) {
+  .project__card {
+    width: 90vw;
+  }
+}
+/* ---------------- contact ------------------*/
+.button {
+  padding: 0.5em 2em;
+  border-radius: 0.5rem;
+  background-color: #f1c40f;
+  color: #2c3e50;
+  z-index: 99;
+}
+.button:hover {
+  font-weight: bolder;
 }

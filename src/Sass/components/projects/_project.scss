@@ -1,0 +1,68 @@
+/* ----------- project card --------------------- */
+.project__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 25vw;
+  aspect-ratio: 1;
+
+  margin: 0 auto;
+  padding: 1em;
+
+  & img {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    -o-object-fit: cover;
+    object-fit: cover;
+
+    background-color: $color_secondary;
+    box-shadow: $box-shadow_primary;
+    border-radius: $border-radius_primary;
+
+    filter: brightness(50%);
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+
+  & figcaption {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__linklive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: $color_secondary--lighter;
+    border-radius: $border-radius_primary;
+    opacity: 0%;
+
+    &:hover {
+      opacity: 30%;
+    }
+  }
+}
+
+@media all and (max-width: 960px) {
+  .project__card {
+    width: 45vw;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .project__card {
+    width: 90vw;
+  }
+}

@@ -23,6 +23,7 @@ Project is: _in progress_.
 
 To do:
 - Tests with Jest
+- JSdoc
 - Moon look live
 
 <!-- ## Contact

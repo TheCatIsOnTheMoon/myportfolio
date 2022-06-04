@@ -1,3 +1,4 @@
+/* ---------------- base ------------------*/
 * {
   box-sizing: border-box !important;
 }
@@ -19,8 +20,38 @@ body {
   font-size: $font-size_primary;
 }
 
-main {
-  max-width: 1400px;
-  margin: auto;
-  padding: 0;
+/* ---------------- global ------------------*/
+
+section {
+  padding: 1em;
+}
+
+h1 {
+  font-family: $font_secondary;
+  font-weight: $font-weight_primary;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: $font_secondary;
+  font-weight: $font-weight_secondary;
+  font-size: $font-size_secondary;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* ---------------- link ------------------*/
+
+a,
+link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: $color_secondary;
+}
+
+a:hover,
+link:hover {
+  color: $color_secondary;
 }
