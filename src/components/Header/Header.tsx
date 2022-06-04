@@ -2,6 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
+    <>
     <header>
       <div id="header_container">
         <h1>Samantha Gillet-Garas</h1>
@@ -15,6 +16,7 @@ function Header() {
         </nav>
       </div>
     </header>
+    </>
   );
 }
 

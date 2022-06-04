@@ -1,16 +1,22 @@
-import React from 'react'
-import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
-import Main from '../Main/Main'
+import React from 'react';
+
+//components
+import About from '../../components/About/About';
+import Contact from '../../components/Contact/Contact';
+import Projects from '../../components/Projects/Projects';
+import Skills from '../../components/Skills/Skills';
 
 function Home() {
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <main>
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
