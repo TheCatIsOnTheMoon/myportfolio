@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
-import Home from './layout/Home/Home';
+import App from '../App';
+import Home from '../layout/Home/Home';
 
 describe('Given I am on the Home page', () => {
   test('Then, it should render the about section', () => {

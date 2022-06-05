@@ -3,13 +3,12 @@ footer {
   width: 100%;
   padding: 1em;
 
-  background-color: var(--color-primary--lighter);
-  box-shadow: var(--boxshadow-primary);
+  background-color: $color_primary--lighter;
+  box-shadow: $box-shadow_primary;
 
   & p {
     text-align: right;
-
-    font-family: var(--font-secondary);
+    font-family: $font_secondary;
     font-size: 1.5em;
   }
 }
