@@ -8,28 +8,37 @@
   padding: 0.2em;
 
   opacity: 70%;
+
+  &_number {
+    font-family: $font_secondary;
+  }
+
+  &_line {
+    height: 0.15em;
+    width: 2em;
+    background-color: $color_secondary;
+    border-radius: 3em;
+  }
+
+  &_text {
+    background-color: $color_secondary--lighter;
+    color: $color_primary;
+    border-radius: $border-radius_primary;
+    font-size: 0.8rem;
+    padding: 1em;
+
+    & a {
+      display: inline;
+      color: $color_primary;
+      text-decoration: underline;
+
+      &:hover {
+        color: $color_tertiary;
+      }
+    }
+  }
 }
-.separator_number {
-  font-family: var(--font-secondary);
-}
-.separator_line {
-  height: 0.15em;
-  width: 2em;
-  background-color: var(--color-secondary--darker);
-  border-radius: 3em;
-}
-.separator_text {
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
-  border-radius: var(--borderradius-primary);
-  font-size: 0.8rem;
-  padding: 0.5em;
-}
-.separator_text a {
-  display: inline;
-  color: var(--color-primary);
-  text-decoration: underline;
-}
-.separator_text a:hover {
-  color: var(--color-tertiary);
+
+.reverse {
+  flex-direction: row-reverse;
 }

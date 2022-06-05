@@ -362,7 +362,44 @@ main {
     width: 90vw;
   }
 }
-/* ---------------- contact ------------------*/
+/* ---------------- contact ------------------*/ /* -----------separator----------------- */
+.separator {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+  padding: 0.2em;
+  opacity: 70%;
+}
+.separator_number {
+  font-family: "Caveat", cursive;
+}
+.separator_line {
+  height: 0.15em;
+  width: 2em;
+  background-color: #bdc3c7;
+  border-radius: 3em;
+}
+.separator_text {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  padding: 1em;
+}
+.separator_text a {
+  display: inline;
+  color: #2c3e50;
+  text-decoration: underline;
+}
+.separator_text a:hover {
+  color: #f1c40f;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
 .button {
   padding: 0.5em 2em;
   border-radius: 0.5rem;

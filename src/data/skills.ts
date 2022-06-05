@@ -20,6 +20,10 @@ export const skills = [
     icon: 'js.svg',
   },
   {
+    name: 'ts',
+    icon: 'ts.svg',
+  },
+  {
     name: 'react',
     icon: 'react.svg',
   },
