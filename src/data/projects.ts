@@ -89,7 +89,7 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_12_09032022',
     liveDemo: '',
-    screenshot: 'kasa.png',
+    screenshot: 'blank.png',
     description: ["Ensure the quality of an application's data.", 'Set up advanced graphic elements.', 'Produce technical documentation with JSdoc.'],
     display: false,
   },
@@ -102,7 +102,7 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_13_28032022',
     liveDemo: '',
-    screenshot: 'kasa.png',
+    screenshot: 'blank.png',
     description: ['Implement a state manager in a React application.', 'Interact with an API.', 'Authenticate to an API.'],
     display: true,
   },
@@ -115,7 +115,7 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
     liveDemo: 'https://oc-p14-hrnet.netlify.app/',
-    screenshot: 'kasa.png',
+    screenshot: 'hrnet.png',
     description: ['Redesign an app to reduce technical debt.', 'Analyze the performance of a web application.', 'Deploy a front-end application.'],
     display: true,
   },
