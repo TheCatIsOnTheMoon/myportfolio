@@ -15,8 +15,8 @@ function Separator({position, number, text, linkText, link}:SeparatorProps) {
       <div className="separator_line"></div>
       <div className="separator_line"></div>
       <div className="separator_text">
-        {text}
-        <a href={link}> {linkText}</a>
+        <span>{text} </span>
+        <a href={link}>{linkText}</a>
       </div>
     </div>
   );

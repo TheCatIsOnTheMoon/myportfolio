@@ -17,7 +17,7 @@ function Home() {
         <About />
         <Separator
           key={separators[0].id}
-          position=""
+          position="reverse"
           number={separators[0].number}
           text={separators[0].text}
           linkText={separators[0].linkText}

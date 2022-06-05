@@ -371,7 +371,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1em;
-  margin-top: 1em;
+  margin: 3em 0;
   padding: 0.2em;
   opacity: 70%;
 }
@@ -389,7 +389,7 @@ main {
   color: #1f262c;
   border-radius: 0.3rem;
   font-size: 0.8rem;
-  padding: 1em;
+  padding: 0.7em;
 }
 .separator_text a {
   display: inline;
@@ -404,6 +404,11 @@ main {
   flex-direction: row-reverse;
 }
 
+@media all and (max-width: 640px) {
+  .separator_line {
+    width: 1em;
+  }
+}
 .button {
   padding: 0.5em 2em;
   border-radius: 0.3rem;

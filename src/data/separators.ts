@@ -2,14 +2,14 @@ export const separators = [
   {
     id: 0,
     number: 31908,
-    text: 'You want to know more ? Take a look at my',
+    text: 'Want to know more ? Look at my',
     linkText: 'linkedIn',
     link: "https://www.linkedin.com/in/gilletgaras-samantha/",
   },
   {
     id: 1,
     number: 80090,
-    text: 'You want to see more ? look at my',
+    text: 'Want to see more ? Look at my',
     linkText: 'GitHub',
     link: 'vscode.svg',
   },
