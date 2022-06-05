@@ -10,8 +10,8 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_2_25032021/',
     screenshot: 'reservia.png',
-    description: '',
-    display: true,
+    description: ['Code HTML/CSS content according to a mockup.', ' Implement a responsive interface.'],
+    display: false,
   },
   {
     name: 'Oh My Food',
@@ -24,8 +24,8 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_3_15042021/',
     screenshot: 'ohmyfood.png',
-    description: '',
-    display: true,
+    description: ['Set up a navigation structure for a website.', 'Ensure the graphic consistency of a website.'],
+    display: false,
   },
   {
     name: 'Game On',
@@ -36,8 +36,8 @@ export const projects = [
     githubCode: 'https://github.com/TheCatIsOnTheMoon/GameOn-website-FR',
     liveDemo: 'https://thecatisonthemoon.github.io/GameOn-website-FR/',
     screenshot: 'gameon.png',
-    description: '',
-    display: true,
+    description: ['Work on a forked GitHub repo.', 'Make a form fully functional'],
+    display: false,
   },
   {
     name: 'FishEye',
@@ -50,7 +50,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_6_09072021/',
     screenshot: 'fisheye.png',
-    description: '',
+    description: ['Develop a modular web application with design patterns.', 'Ensuring the accessibility of a website.', 'Write maintainable JavaScript code.', 'Manage events with JavaScript.'],
     display: true,
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
     liveDemo:
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_7_04102021/',
     screenshot: 'lespetitsplats.png',
-    description: '',
+    description: ['Develop an algorithm to solve a problem.', 'Compare algorithms with Jsben.', 'Write a feature investigation sheet on the search algorithm.', 'Make an algorithm diagram.'],
     display: false,
   },
   {
@@ -77,8 +77,8 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_11_27022022',
     liveDemo: 'https://oc-p11-kasa.netlify.app/',
     screenshot: 'kasa.png',
-    description: '',
-    display: false,
+    description: ['Develop an apartment rental web application.', 'Developing routes for a web application with React Router.'],
+    display: true,
   },
   {
     name: 'SportSee',
@@ -89,12 +89,12 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_12_09032022',
     liveDemo: '',
-    screenshot: 'sportsee.png',
-    description: '',
+    screenshot: 'kasa.png',
+    description: ["Ensure the quality of an application's data.", 'Set up advanced graphic elements.', 'Produce technical documentation with JSdoc.'],
     display: false,
   },
   {
-    name: 'ARGENTBANK',
+    name: 'ArgentBank',
     number: 13,
     startDate: '28-03-2022',
     endDate: '',
@@ -102,9 +102,9 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_13_28032022',
     liveDemo: '',
-    screenshot: 'argentbank.png',
-    description: '',
-    display: false,
+    screenshot: 'kasa.png',
+    description: ['Implement a state manager in a React application.', 'Interact with an API.', 'Authenticate to an API.'],
+    display: true,
   },
   {
     name: 'HRnet',
@@ -115,8 +115,8 @@ export const projects = [
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
     liveDemo: 'https://oc-p14-hrnet.netlify.app/',
-    screenshot: 'hrnet.png',
-    description: '',
-    display: false,
+    screenshot: 'kasa.png',
+    description: ['Redesign an app to reduce technical debt.', 'Analyze the performance of a web application.', 'Deploy a front-end application.'],
+    display: true,
   },
 ];

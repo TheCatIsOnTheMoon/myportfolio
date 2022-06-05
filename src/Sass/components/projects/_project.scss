@@ -27,30 +27,40 @@
     border-radius: $border-radius_primary;
 
     filter: brightness(50%);
-
-    &:hover {
-      filter: brightness(80%);
-    }
   }
 
-  & figcaption {
+  &__content {
     display: flex;
-    justify-content: space-around;
-  }
+    flex-direction: column;
+    justify-content: space-between;
 
-  &__linklive {
-    position: absolute;
-    top: 0;
-    left: 0;
+    opacity: 20%;
+
     height: 100%;
-    width: 100%;
-
-    background-color: $color_secondary--lighter;
-    border-radius: $border-radius_primary;
-    opacity: 0%;
 
     &:hover {
-      opacity: 30%;
+      opacity: 95%;
+    }
+
+    &__title,
+    &__technologies,
+    &__description {
+      background-color: $color_primary;
+      color: $color_secondary;
+      border-radius: $border-radius_primary;
+
+      padding: 0.8em;
+
+      line-height: 1.3em;
+    }
+
+    &__technologies {
+      color: $color_tertiary;
+    }
+
+    &__links {
+      display: flex;
+      justify-content: space-evenly;
     }
   }
 }

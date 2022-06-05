@@ -9,7 +9,7 @@ interface ProjectProps {
   githubCode: string;
   liveDemo: string;
   screenshot: string;
-  description: string;
+  description: Array<string>;
   display: boolean;
 }
 
@@ -29,30 +29,37 @@ function Project({
 
   return (
     <figure className="project__card" id={`project ${number}`}>
-      <h3>{name}</h3>
-      <p className="technologies">{technologies}</p>
-      <p className="description">{description}</p>
-      <img
-        src={projectScreenshot}
-        alt={`project ${name} screenshot`}
-      />
-      <figcaption>
-        <a
-          href={liveDemo}
-          className="project__card__linklive"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-
-        </a>
-        <a
-          href={githubCode}
-          className="project__card__linkgithub button"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          code
-        </a>
+      <img src={projectScreenshot} alt={`project ${name} screenshot`} />
+      <figcaption className="project__card__content">
+        <h3 className="project__card__content__title">{name}</h3>
+        <ul className="project__card__content__technologies">
+          {technologies.map((tech, index) => (
+            <li key={index}>{tech}</li>
+          ))}
+        </ul>
+        <ul className="project__card__content__description">
+          {description.map((element, index) => (
+            <li key={index}>- {element}</li>
+          ))}
+        </ul>
+        <div className="project__card__content__links">
+          <a
+            href={liveDemo}
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            link
+          </a>
+          <a
+            href={githubCode}
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            code
+          </a>
+        </div>
       </figcaption>
     </figure>
   );

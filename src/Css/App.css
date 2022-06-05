@@ -185,7 +185,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #2c3e50;
+  background-color: #1f262c;
   color: #bdc3c7;
   font-family: "Montserrat", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   font-weight: 500;
@@ -230,7 +230,7 @@ link:hover {
 header {
   width: 100%;
   padding: 1.5em;
-  background-color: #34495e;
+  background-color: #45515e;
   box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
 }
 
@@ -265,7 +265,7 @@ nav ul li:hover {
 footer {
   width: 100%;
   padding: 1em;
-  background-color: #34495e;
+  background-color: #45515e;
   box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
 }
 footer p {
@@ -328,28 +328,32 @@ main {
   object-fit: cover;
   background-color: #bdc3c7;
   box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   filter: brightness(50%);
 }
-.project__card img:hover {
-  filter: brightness(80%);
-}
-.project__card figcaption {
+.project__card__content {
   display: flex;
-  justify-content: space-around;
-}
-.project__card__linklive {
-  position: absolute;
-  top: 0;
-  left: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 20%;
   height: 100%;
-  width: 100%;
-  background-color: #ecf0f1;
-  border-radius: 0.5rem;
-  opacity: 0%;
 }
-.project__card__linklive:hover {
-  opacity: 30%;
+.project__card__content:hover {
+  opacity: 95%;
+}
+.project__card__content__title, .project__card__content__technologies, .project__card__content__description {
+  background-color: #1f262c;
+  color: #bdc3c7;
+  border-radius: 0.3rem;
+  padding: 0.8em;
+  line-height: 1.3em;
+}
+.project__card__content__technologies {
+  color: #f1c40f;
+}
+.project__card__content__links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media all and (max-width: 960px) {
@@ -382,14 +386,14 @@ main {
 }
 .separator_text {
   background-color: #ecf0f1;
-  color: #2c3e50;
-  border-radius: 0.5rem;
+  color: #1f262c;
+  border-radius: 0.3rem;
   font-size: 0.8rem;
   padding: 1em;
 }
 .separator_text a {
   display: inline;
-  color: #2c3e50;
+  color: #1f262c;
   text-decoration: underline;
 }
 .separator_text a:hover {
@@ -402,11 +406,11 @@ main {
 
 .button {
   padding: 0.5em 2em;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   background-color: #f1c40f;
-  color: #2c3e50;
+  color: #1f262c;
   z-index: 99;
 }
 .button:hover {
-  font-weight: bolder;
+  background-color: #1f262c;
 }
