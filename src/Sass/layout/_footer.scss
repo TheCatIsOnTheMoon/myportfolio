@@ -1,14 +1,25 @@
 /* ---------------- footer ------------------*/
 footer {
+  display: flex;
+  flex-direction: column;
+
   width: 100%;
+  margin: 0 auto;
   padding: 1em;
 
   background-color: $color_primary--lighter;
   box-shadow: $box-shadow_primary;
 
   & p {
-    text-align: right;
+    text-align: center;
     font-family: $font_secondary;
     font-size: 1.5em;
+
+    & a {
+      display: inline-block;
+      &:hover {
+        color: $color_tertiary;
+      }
+    }
   }
 }
