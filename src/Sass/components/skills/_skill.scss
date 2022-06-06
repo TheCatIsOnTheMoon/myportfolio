@@ -1,6 +1,18 @@
 /* ----------- skill icon --------------------- */
-.icon {
-  height: 3em;
-  aspect-ratio: 1;
-  margin: 1em;
+.skill {
+  &__icon {
+    height: 3em;
+    aspect-ratio: 1;
+    margin: 1.5em;
+    transition: 500ms ease-in-out;
+    &:hover {
+      scale: 1.3;
+      transition: 500ms ease-in-out;
+    }
+  }
+  &__name {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }

@@ -8,13 +8,14 @@ interface SkillProps {
 function Skill({ name, icon }:SkillProps) {
     let skillIcon = require(`../../assets/svg/${icon}`)
   return (
-    <li>
+    <li className='skill'>
       <img
         src={skillIcon}
         alt={`${name}-icon`}
         id={`${name}-icon`}
-        className="icon"
+        className="skill__icon icon"
       />
+      <p className='skill__name'>{name}</p>
     </li>
   )
 }

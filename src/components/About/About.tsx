@@ -8,7 +8,6 @@ function About() {
           <br />
           a Front-End Developer.
         </h2>
-
         <p>
           After spending the first part of my life in the world of archaeology,
           I turned to Javascript, React and Front-End development. BLA bla bla

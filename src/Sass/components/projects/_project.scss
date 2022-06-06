@@ -10,6 +10,13 @@
   margin: 0 auto;
   padding: 1em;
 
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    scale: 1.02;
+    transition: 300ms ease-in-out;
+  }
+
   & img {
     z-index: -1;
     position: absolute;

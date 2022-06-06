@@ -16,11 +16,11 @@ export const skills = [
     icon: 'css3.svg',
   },
   {
-    name: 'js',
+    name: 'javascript',
     icon: 'js.svg',
   },
   {
-    name: 'ts',
+    name: 'typescript',
     icon: 'ts.svg',
   },
   {

@@ -231,7 +231,7 @@ header {
   width: 100%;
   padding: 1.5em;
   background-color: #45515e;
-  box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
 }
 
 #header_container {
@@ -271,7 +271,7 @@ nav ul li:hover {
   margin: 0 auto;
   padding: 1em;
   background-color: #45515e;
-  box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
 }
 .footer__message {
   font-family: "Caveat", cursive;
@@ -302,14 +302,25 @@ main {
 /* ---------------- skills ------------------*/
 #skills ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 /* ----------- skill icon --------------------- */
-.icon {
+.skill__icon {
   height: 3em;
   aspect-ratio: 1;
-  margin: 1em;
+  margin: 1.5em;
+  transition: 500ms ease-in-out;
+}
+.skill__icon:hover {
+  scale: 1.3;
+  transition: 500ms ease-in-out;
+}
+.skill__name {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* ----------- projects --------------------- */
@@ -328,6 +339,11 @@ main {
   width: 30%;
   margin: 0 auto;
   padding: 1em;
+  transition: 300ms ease-in-out;
+}
+.project__card:hover {
+  scale: 1.02;
+  transition: 300ms ease-in-out;
 }
 .project__card img {
   z-index: -1;
@@ -339,7 +355,7 @@ main {
   -o-object-fit: cover;
   object-fit: cover;
   background-color: #bdc3c7;
-  box-shadow: -1px 2px 16px 11px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
   border-radius: 0.3rem;
   filter: brightness(50%);
 }
