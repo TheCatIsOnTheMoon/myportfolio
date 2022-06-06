@@ -366,7 +366,39 @@ main {
     width: 90vw;
   }
 }
-/* ---------------- contact ------------------*/ /* -----------separator----------------- */
+/* ---------------- contact ------------------*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem auto;
+}
+.contact__form__label {
+  display: none;
+}
+.contact__form__input {
+  width: 90%;
+  background-color: #ecf0f1;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.contact__form__submitbtn {
+  border-color: #f1c40f;
+  border-style: solid;
+  display: flex;
+  margin: 0.5rem auto;
+  font-weight: 500;
+}
+.contact__form__submitbtn:hover {
+  color: #ecf0f1;
+}
+
+/* -----------separator----------------- */
 .separator {
   display: flex;
   align-items: center;
@@ -411,6 +443,9 @@ main {
 }
 .button {
   padding: 0.5em 2em;
+  border: 1px;
+  border-color: #f1c40f;
+  border-style: solid;
   border-radius: 0.3rem;
   background-color: #f1c40f;
   color: #1f262c;
