@@ -126,8 +126,8 @@ export const projects = [
     endDate: '',
     technologies: [' React', ' TypeScript', ' Sass', ' Jest'],
     githubCode:
-      'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
-    liveDemo: 'https://oc-p14-hrnet.netlify.app/',
+      'https://github.com/TheCatIsOnTheMoon/myportfolio',
+    liveDemo: 'https://sgilletgaras.netlify.app/',
     screenshot: 'portfolio.png',
     description: ['Redesign an app to reduce technical debt.', 'Analyze the performance of a web application.', 'Deploy a front-end application.'],
     display: true,
