@@ -65,7 +65,7 @@ export const projects = [
       'https://thecatisonthemoon.github.io/GilletGarasSamantha_7_04102021/',
     screenshot: 'lespetitsplats.png',
     description: ['Develop an algorithm to solve a problem.', 'Compare algorithms with Jsben.', 'Write a feature investigation sheet on the search algorithm.', 'Make an algorithm diagram.'],
-    display: false,
+    display: true,
   },
   {
     name: 'Kasa',
@@ -124,7 +124,7 @@ export const projects = [
     number: 0,
     startDate: '03-06-2022',
     endDate: '',
-    technologies: [' React', ' React-Router', ' TypeScript', ' Sass', ' Jest'],
+    technologies: [' React', ' TypeScript', ' Sass', ' Jest'],
     githubCode:
       'https://github.com/TheCatIsOnTheMoon/GilletGarasSamantha_14_11042022',
     liveDemo: 'https://oc-p14-hrnet.netlify.app/',

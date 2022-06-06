@@ -207,7 +207,7 @@ h2 {
   font-family: "Caveat", cursive;
   font-weight: 400;
   font-size: 4rem;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
@@ -344,7 +344,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  opacity: 20%;
+  opacity: 15%;
   height: 100%;
 }
 .project__card__content:hover {
@@ -355,9 +355,11 @@ main {
   color: #bdc3c7;
   border-radius: 0.3rem;
   padding: 0.8em;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 .project__card__content__technologies {
+  display: flex;
+  justify-content: space-evenly;
   color: #f1c40f;
 }
 .project__card__content__links {

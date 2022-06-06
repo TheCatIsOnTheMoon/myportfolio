@@ -39,7 +39,7 @@ function Project({
         </ul>
         <ul className="project__card__content__description">
           {description.map((element, index) => (
-            <li key={index}>- {element}</li>
+            <li key={index}>{element}</li>
           ))}
         </ul>
         <div className="project__card__content__links">

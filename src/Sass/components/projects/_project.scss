@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-    opacity: 20%;
+    opacity: 15%;
 
     height: 100%;
 
@@ -51,10 +51,12 @@
 
       padding: 0.8em;
 
-      line-height: 1.3em;
+      line-height: 1.5em;
     }
 
     &__technologies {
+      display: flex;
+      justify-content: space-evenly;
       color: $color_tertiary;
     }
 
