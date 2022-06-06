@@ -1,4 +1,19 @@
 /* ---------------- about ------------------*/
-#about p {
-  text-align: justify;
+.about {
+  &__title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 1em;
+    // &__text {
+    // }
+    &__photo {
+      width: 20rem;
+      margin-bottom: 2.5em;
+    }
+  }
+  &__text {
+    text-align: justify;
+  }
 }

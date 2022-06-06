@@ -11,7 +11,7 @@ export const separators = [
     number: 80090,
     text: 'Want to see more ? Look at my',
     linkText: 'GitHub',
-    link: 'vscode.svg',
+    link: 'https://github.com/TheCatIsOnTheMoon',
   },
   {
     id: 2,
