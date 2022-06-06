@@ -395,12 +395,15 @@ main {
 .contact__form__label {
   display: none;
 }
-.contact__form__input {
+.contact__form__input, .contact__form__textarea {
   width: 90%;
   background-color: #ecf0f1;
   border-radius: 0.3rem;
   margin: 1rem;
   padding: 0.5rem;
+}
+.contact__form__textarea {
+  resize: none;
 }
 .contact__form__submitbtn {
   border-color: #f1c40f;

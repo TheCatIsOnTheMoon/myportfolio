@@ -5,18 +5,18 @@ function Contact() {
     <section className="contact">
       <h2>Contact</h2>
       <form className="contact__form" name="contact" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact-form" />
+        <input type="hidden" name="form-name" value="contact-form"/>
         <p>
           <label className="contact__form__label" htmlFor="name">Name</label>
-          <input className="contact__form__input" type="text" id="name" name="name" placeholder="Name"/>
+          <input className="contact__form__input" type="text" id="name" name="name" placeholder="Name" maxLength={50} required/>
         </p>
         <p>
           <label className="contact__form__label" htmlFor="email">Email</label>
-          <input className="contact__form__input" type="text" id="email" name="email" placeholder="Email" maxLength={50}/>
+          <input className="contact__form__input" type="text" id="email" name="email" placeholder="Email" maxLength={50} required/>
         </p>
         <p>
           <label className="contact__form__label" htmlFor="message">Message</label>
-          <textarea className="contact__form__input" id="message" name="message" placeholder="Leave me a message :)" rows={4} cols={50}></textarea>
+          <textarea className="contact__form__textarea" id="message" name="message" placeholder="Leave me a message :)" rows={4} cols={50} maxLength={500} required></textarea>
         </p>
         <p>
           <button className="contact__form__submitbtn button" type="submit">Send</button>
