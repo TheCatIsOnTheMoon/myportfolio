@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className="contact">
       <h2>Contact</h2>
-      <form className="contact__form" name="contact" method="POST" data-netlify="true">
+      <form className="contact__form" name="contact" method="POST" netlify netlify-honeypot="bot-field">
         <p>
           <label className="contact__form__label" htmlFor="name">Name</label>
           <input className="contact__form__input" type="text" id="name" name="name" placeholder="Name"/>
