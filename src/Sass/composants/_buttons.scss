@@ -1,5 +1,8 @@
 .button {
   padding: 0.5em 2em;
+  border: 1px;
+  border-color: $color_tertiary;
+  border-style: solid;
   border-radius: $border-radius_primary;
   background-color: $color_tertiary;
   color: $color_primary;
