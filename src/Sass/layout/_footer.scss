@@ -1,7 +1,9 @@
 /* ---------------- footer ------------------*/
-footer {
+.footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   width: 100%;
   margin: 0 auto;
@@ -10,10 +12,13 @@ footer {
   background-color: $color_primary--lighter;
   box-shadow: $box-shadow_primary;
 
-  & p {
-    text-align: center;
+  &__message {
     font-family: $font_secondary;
     font-size: 1.5em;
+  }
+
+  &__credit {
+    font-size: 0.8em;
 
     & a {
       display: inline-block;

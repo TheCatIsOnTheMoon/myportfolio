@@ -129,7 +129,7 @@ export const projects = [
       'https://github.com/TheCatIsOnTheMoon/myportfolio',
     liveDemo: 'https://sgilletgaras.netlify.app/',
     screenshot: 'portfolio.png',
-    description: ['Redesign an app to reduce technical debt.', 'Analyze the performance of a web application.', 'Deploy a front-end application.'],
+    description: ['Design a portfolio on Figma.', 'Develop according to a mockup with React, Typescript and Sass.', 'Integrate a contact form with Netlify.', 'Integrate tests with jest.'],
     display: true,
   },
 ];
