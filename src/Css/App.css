@@ -194,6 +194,7 @@ body {
 
 /* ---------------- global ------------------*/
 section {
+  position: relative;
   padding: 1em;
 }
 
@@ -281,9 +282,30 @@ h1 {
 
 /* ---------------- main ------------------*/
 main {
+  position: relative;
   max-width: 1400px;
   margin: auto;
   padding: 0;
+}
+
+.planet {
+  position: absolute;
+  z-index: -99;
+  opacity: 80%;
+}
+.planet:hover {
+  resize: 2;
+}
+
+#mars {
+  bottom: -15rem;
+  left: 4rem;
+  height: 10rem;
+}
+
+#jupiter {
+  top: 3rem;
+  right: 3rem;
 }
 
 /* ---------------- about ------------------*/
@@ -291,14 +313,37 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-end;
   gap: 1em;
 }
-.about__title__photo {
+.about__title__photos {
+  position: relative;
   width: 20rem;
   margin-bottom: 2.5em;
 }
+.about__title__photos__back {
+  width: 20rem;
+}
+.about__title__photos__photo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 15rem;
+  rotate: 6deg;
+}
+.about__title__photos__pin {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  width: 1rem;
+}
 .about__text {
   text-align: justify;
+  line-height: 1.5em;
+}
+.about__text a {
+  display: inline-block;
+  text-decoration: underline;
 }
 
 /* ---------------- skills ------------------*/

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { projects } from '../../data/projects';
 import Project from './Project';
+import jupiter from '../../assets/planetsvg/jupiter.svg';
 
 function Projects() {
   let filteredProjects = projects.filter(function (element) {
@@ -11,6 +12,7 @@ function Projects() {
   return (
     <section id="projects">
       <h2>Projects</h2>
+      <img src={jupiter} alt="img" className='planet' id="jupiter"></img>
       <article className="project" id="project_container">
         {filteredProjects.map((project, index) => (
           <Project

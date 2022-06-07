@@ -1,9 +1,11 @@
 import React from 'react';
+import saturn from '../../assets/planetsvg/saturn.svg';
 
 function Contact() {
   return (
     <section className="contact">
       <h2>Contact</h2>
+      <img src={saturn} alt="img" className='planet' id="saturn"></img>
       <form className="contact__form" name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact-form"/>
         <p>
@@ -16,7 +18,7 @@ function Contact() {
         </p>
         <p>
           <label className="contact__form__label" htmlFor="message">Message</label>
-          <textarea className="contact__form__textarea" id="message" name="message" placeholder="Leave me a message :)" rows={4} cols={50} maxLength={500} required></textarea>
+          <textarea className="contact__form__textarea" id="message" name="message" placeholder="Leave me a message :)" rows={10} cols={50} maxLength={500} required></textarea>
         </p>
         <p>
           <button className="contact__form__submitbtn button" type="submit">Send</button>

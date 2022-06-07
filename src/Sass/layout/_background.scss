@@ -1,0 +1,33 @@
+.planet {
+  position: absolute;
+  z-index: -99;
+
+  opacity: 80%;
+
+  &:hover {
+    resize: 2;
+  }
+}
+
+#mars {
+  bottom: -15rem;
+  left: 4rem;
+  height: 10rem;
+}
+
+#jupiter {
+  top: 3rem;
+  right: 3rem;
+}
+
+#saturn {
+}
+
+#uranus {
+}
+
+#neptune {
+}
+
+#pluto {
+}

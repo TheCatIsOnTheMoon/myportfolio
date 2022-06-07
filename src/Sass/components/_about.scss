@@ -4,16 +4,39 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-end;
 
     gap: 1em;
     // &__text {
     // }
-    &__photo {
+    &__photos {
+      position: relative;
       width: 20rem;
       margin-bottom: 2.5em;
+      &__back {
+        width: 20rem;
+      }
+      &__photo {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 15rem;
+        rotate: 6deg;
+      }
+      &__pin {
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        width: 1rem;
+      }
     }
   }
   &__text {
     text-align: justify;
+    line-height: 1.5em;
+    & a {
+      display: inline-block;
+      text-decoration: underline;
+    }
   }
 }
