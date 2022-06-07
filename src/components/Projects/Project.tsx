@@ -43,14 +43,22 @@ function Project({
           ))}
         </ul>
         <div className="project__card__content__links">
-          <a
-            href={liveDemo}
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            link
-          </a>
+          {(() => {
+            if (liveDemo === '') {
+              return false;
+            }
+            return (
+              <a
+                href={liveDemo}
+                className="button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                demo
+              </a>
+            );
+          })()}
+
           <a
             href={githubCode}
             className="button"
