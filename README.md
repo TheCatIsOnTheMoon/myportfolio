@@ -2,7 +2,7 @@
 
 > Live demo [_here_]([https://](https://sgilletgaras.netlify.app)).
 
-## General Information
+<!-- ## General Information -->
 
 ## Technologies Used
 - React
