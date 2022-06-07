@@ -1,6 +1,6 @@
 # My Portfolio
 
-> Live demo [_here_]([https://](https://sgilletgaras.netlify.app)).
+> Live demo [_here_](https://sgilletgaras.netlify.app).
 
 <!-- ## General Information -->
 
