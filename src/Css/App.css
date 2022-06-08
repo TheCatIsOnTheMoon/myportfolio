@@ -420,7 +420,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5em;
-  opacity: 80%;
+  opacity: 90%;
   height: 100%;
 }
 .project__card__content:hover {
@@ -539,9 +539,10 @@ main {
   border-radius: 0.3rem;
   background-color: #212121;
   color: #f39c12;
+  cursor: pointer;
   z-index: 99;
 }
 .button:hover {
-  background-color: #212121;
-  color: #f39c12;
+  background-color: #f39c12;
+  color: #212121;
 }
