@@ -199,13 +199,13 @@ section {
 }
 
 h1 {
-  font-family: "Caveat", cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 500;
   font-size: 2em;
 }
 
 h2 {
-  font-family: "Caveat", cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 400;
   font-size: 4rem;
   margin-top: 0.5em;
@@ -250,7 +250,7 @@ link:hover {
 }
 
 h1 {
-  font-family: "Caveat", cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 500;
   font-size: 2em;
 }
@@ -269,7 +269,7 @@ h1 {
   box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .footer__message {
-  font-family: "Caveat", cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.5em;
 }
 .footer__credit {
@@ -413,18 +413,18 @@ main {
   background-color: #ecf0f1;
   box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);
   border-radius: 0.3rem;
-  filter: brightness(50%);
+  filter: brightness(80%);
 }
 .project__card__content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 0.5em;
-  opacity: 95%;
+  opacity: 80%;
   height: 100%;
 }
 .project__card__content:hover {
-  opacity: 95%;
+  opacity: 100%;
 }
 .project__card__content__title, .project__card__content__technologies, .project__card__content__description {
   background-color: #212121;
@@ -498,7 +498,7 @@ main {
   opacity: 70%;
 }
 .separator_number {
-  font-family: "Caveat", cursive;
+  font-family: "Bebas Neue", cursive;
 }
 .separator_line {
   height: 0.15em;
@@ -511,7 +511,7 @@ main {
   color: #212121;
   border-radius: 0.3rem;
   font-size: 0.8rem;
-  padding: 0.7em;
+  padding: 0.7em 1.5em;
 }
 .separator_text a {
   display: inline;
@@ -543,4 +543,5 @@ main {
 }
 .button:hover {
   background-color: #212121;
+  color: #f39c12;
 }

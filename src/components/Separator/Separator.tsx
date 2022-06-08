@@ -19,7 +19,6 @@ function Separator({position, number, text, linkText, link}:SeparatorProps) {
         <span>{text} </span>
         <a href={link}>{linkText}</a>
       </div>
-      <div className="separator_line"></div>
     </div>
   );
 }
