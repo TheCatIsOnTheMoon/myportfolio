@@ -537,12 +537,12 @@ main {
   border-color: #f39c12;
   border-style: solid;
   border-radius: 0.3rem;
-  background-color: #212121;
-  color: #f39c12;
+  background-color: #f39c12;
+  color: #212121;
   cursor: pointer;
   z-index: 99;
 }
 .button:hover {
-  background-color: #f39c12;
-  color: #212121;
+  background-color: #212121;
+  color: #f39c12;
 }

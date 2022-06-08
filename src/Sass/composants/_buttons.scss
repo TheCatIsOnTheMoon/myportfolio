@@ -4,13 +4,13 @@
   border-color: $color_tertiary;
   border-style: solid;
   border-radius: $border-radius_primary;
-  background-color: $color_primary;
-  color: $color_tertiary;
+  background-color: $color_tertiary;
+  color: $color_primary;
   cursor: pointer;
   z-index: 99;
 
   &:hover {
-    background-color: $color_tertiary;
-    color: $color_primary;
+    background-color: $color_primary;
+    color: $color_tertiary;
   }
 }
