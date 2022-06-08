@@ -185,8 +185,8 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: #1f262c;
-  color: #bdc3c7;
+  background-color: #212121;
+  color: #ecf0f1;
   font-family: "Montserrat", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -219,19 +219,20 @@ link {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #bdc3c7;
+  color: #ecf0f1;
 }
 
 a:hover,
 link:hover {
-  color: #bdc3c7;
+  color: #ecf0f1;
 }
 
 /* ---------------- home ------------------*/ /* ---------------- header ------------------*/
 .header {
   padding: 1.5em;
-  background-color: #45515e;
-  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
+  background-color: #c7c7c7;
+  color: #212121;
+  box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .header__container {
   display: flex;
@@ -263,8 +264,9 @@ h1 {
   width: 100%;
   margin: 0 auto;
   padding: 1em;
-  background-color: #45515e;
-  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
+  background-color: #c7c7c7;
+  color: #212121;
+  box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);
 }
 .footer__message {
   font-family: "Caveat", cursive;
@@ -274,10 +276,11 @@ h1 {
   font-size: 0.8em;
 }
 .footer__credit a {
+  color: #212121;
   display: inline-block;
 }
 .footer__credit a:hover {
-  color: #f1c40f;
+  color: #f39c12;
 }
 
 /* ---------------- main ------------------*/
@@ -291,10 +294,16 @@ main {
 .planet {
   position: absolute;
   z-index: -99;
-  opacity: 80%;
+  opacity: 70%;
 }
 .planet:hover {
   resize: 2;
+}
+
+#moon {
+  height: 5rem;
+  top: 1rem;
+  left: -4rem;
 }
 
 #mars {
@@ -401,8 +410,8 @@ main {
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background-color: #bdc3c7;
-  box-shadow: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
+  background-color: #ecf0f1;
+  box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);
   border-radius: 0.3rem;
   filter: brightness(50%);
 }
@@ -418,8 +427,8 @@ main {
   opacity: 95%;
 }
 .project__card__content__title, .project__card__content__technologies, .project__card__content__description {
-  background-color: #1f262c;
-  color: #bdc3c7;
+  background-color: #212121;
+  color: #ecf0f1;
   border-radius: 0.3rem;
   padding: 0.8em;
   line-height: 1.5em;
@@ -427,7 +436,7 @@ main {
 .project__card__content__technologies {
   display: flex;
   justify-content: space-evenly;
-  color: #f1c40f;
+  color: #f39c12;
 }
 .project__card__content__links {
   display: flex;
@@ -469,7 +478,7 @@ main {
   resize: none;
 }
 .contact__form__submitbtn {
-  border-color: #f1c40f;
+  border-color: #f39c12;
   border-style: solid;
   display: flex;
   margin: 0.5rem auto;
@@ -494,23 +503,23 @@ main {
 .separator_line {
   height: 0.15em;
   width: 2em;
-  background-color: #bdc3c7;
+  background-color: #ecf0f1;
   border-radius: 3em;
 }
 .separator_text {
   background-color: #ecf0f1;
-  color: #1f262c;
+  color: #212121;
   border-radius: 0.3rem;
   font-size: 0.8rem;
   padding: 0.7em;
 }
 .separator_text a {
   display: inline;
-  color: #1f262c;
+  color: #212121;
   text-decoration: underline;
 }
 .separator_text a:hover {
-  color: #f1c40f;
+  color: #f39c12;
 }
 
 .reverse {
@@ -525,13 +534,13 @@ main {
 .button {
   padding: 0.5em 2em;
   border: 1px;
-  border-color: #f1c40f;
+  border-color: #f39c12;
   border-style: solid;
   border-radius: 0.3rem;
-  background-color: #f1c40f;
-  color: #1f262c;
+  background-color: #f39c12;
+  color: #212121;
   z-index: 99;
 }
 .button:hover {
-  background-color: #1f262c;
+  background-color: #212121;
 }

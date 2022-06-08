@@ -2,6 +2,7 @@ import React from 'react';
 import photoback from '../../assets/pictures/photoback.svg';
 import photo from '../../assets/pictures/photo.jpg';
 import pin from '../../assets/svg/pin.svg';
+import moon from '../../assets/planetsvg/moon.svg';
 import mars from '../../assets/planetsvg/mars.svg';
 
 function About() {
@@ -13,8 +14,17 @@ function About() {
           <br />a Front-End Developer.
         </h2>
         <div className="about__title__photos">
-          <img className="about__title__photos__back" src={photoback} alt="portrait" />
-          <img className="about__title__photos__photo" src={photo} alt="portrait" />
+          <img src={moon} alt="img" className="planet" id="moon"></img>
+          <img
+            className="about__title__photos__back"
+            src={photoback}
+            alt="portrait"
+          />
+          <img
+            className="about__title__photos__photo"
+            src={photo}
+            alt="portrait"
+          />
           <img className="about__title__photos__pin" src={pin} alt="img"></img>
         </div>
       </div>

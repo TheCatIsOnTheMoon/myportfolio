@@ -1,11 +1,11 @@
 // color variables
-$color_primary: #1f262c;
-$color_primary--lighter: #45515e;
+$color_primary: #212121;
+$color_primary--lighter: #c7c7c7;
 
-$color_secondary: #bdc3c7;
+$color_secondary: #ecf0f1;
 $color_secondary--lighter: #ecf0f1;
 
-$color_tertiary: #f1c40f;
+$color_tertiary: #f39c12;
 
 //font variables
 $font_primary: 'Montserrat', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
@@ -18,4 +18,4 @@ $font-size_secondary: 4rem;
 
 //utilities
 $border-radius_primary: 0.3rem;
-$box-shadow_primary: -1px 1px 16px 5px rgba(0, 0, 0, 0.25);
+$box-shadow_primary: -1px 1px 10px 5px rgba(0, 0, 0, 0.25);

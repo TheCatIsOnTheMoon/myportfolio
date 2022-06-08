@@ -2,11 +2,17 @@
   position: absolute;
   z-index: -99;
 
-  opacity: 80%;
+  opacity: 70%;
 
   &:hover {
     resize: 2;
   }
+}
+
+#moon {
+  height: 5rem;
+  top: 1rem;
+  left: -4rem;
 }
 
 #mars {

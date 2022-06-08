@@ -26,7 +26,7 @@ function Home() {
       <Projects />
       <Separator
         key={separators[1].id}
-        position="reverse"
+        position=""
         number={separators[1].number}
         text={separators[1].text}
         linkText={separators[1].linkText}

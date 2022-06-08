@@ -10,6 +10,7 @@
   padding: 1em;
 
   background-color: $color_primary--lighter;
+  color: $color_primary;
   box-shadow: $box-shadow_primary;
 
   &__message {
@@ -21,6 +22,7 @@
     font-size: 0.8em;
 
     & a {
+      color: $color_primary;
       display: inline-block;
       &:hover {
         color: $color_tertiary;
