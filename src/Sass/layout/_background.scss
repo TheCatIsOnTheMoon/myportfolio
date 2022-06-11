@@ -26,14 +26,8 @@
   right: 3rem;
 }
 
-#saturn {
-}
-
-#uranus {
-}
-
-#neptune {
-}
-
-#pluto {
+@media all and (max-width: 900px) {
+  #saturn {
+    right: 0;
+  }
 }

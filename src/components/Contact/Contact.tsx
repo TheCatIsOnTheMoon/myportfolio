@@ -4,7 +4,7 @@ import saturn from '../../assets/planetsvg/saturn.svg';
 function Contact() {
   return (
     <section className="contact">
-      <h2>Contact</h2>
+      <h2>contact</h2>
       <img src={saturn} alt="img" className='planet' id="saturn"></img>
       <form className="contact__form" name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact-form"/>

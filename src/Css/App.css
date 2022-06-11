@@ -317,6 +317,11 @@ main {
   right: 3rem;
 }
 
+@media all and (max-width: 900px) {
+  #saturn {
+    right: 0;
+  }
+}
 /* ---------------- about ------------------*/
 .about__title {
   display: flex;
