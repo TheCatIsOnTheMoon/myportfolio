@@ -12,7 +12,7 @@ function Header() {
             <a href="https://github.com/TheCatIsOnTheMoon">
               <img className="header__container__links__icon" src={iconGithub} alt="link github" />
             </a>
-            <a href="https://www.linkedin.com/in/gilletgaras-samantha/">
+            <a href="https://www.linkedin.com/in/sgilletgaras/">
               <img className="header__container__links__icon" src={iconLinkedin} alt="link linkedIn" />
             </a>
           </div>
