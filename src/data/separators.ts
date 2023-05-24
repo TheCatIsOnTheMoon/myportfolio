@@ -4,7 +4,7 @@ export const separators = [
     number: 31908,
     text: 'Want to know more ? Look at my',
     linkText: 'linkedIn',
-    link: "https://www.linkedin.com/in/gilletgaras-samantha/",
+    link: "https://www.linkedin.com/in/sgilletgaras/",
   },
   {
     id: 1,
